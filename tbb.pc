@@ -1,0 +1,11 @@
+# Manually added pkg-config file for tbb - START
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+Name: tbb
+Description: thread building block
+Version: 2017U7
+Cflags: -I${includedir} -DTBB_USE_GCC_BUILTINS=1 -D__TBB_64BIT_ATOMICS=0
+Libs: -L${libdir} -ltbb
+# Manually added pkg-config file for tbb - END

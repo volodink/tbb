@@ -1,0 +1,18 @@
+Package: libtbb-dev
+Priority: extra
+Section: universe/libdevel
+Maintainer: Konstantin Volodin (1@1.com)
+Architecture: armhf
+Version: 2007-U7
+Homepage: http://threadingbuildingblocks.org/
+Description: parallelism library for C++ - development files
+ TBB is a library that helps you leverage multi-core processor
+ performance without having to be a threading expert. It represents a
+ higher-level, task-based parallelism that abstracts platform details
+ and threading mechanism for performance and scalability.
+ .
+ (Note: if you are a user of the i386 architecture, i.e., 32-bit Intel
+ or compatible hardware, this package only supports Pentium4-compatible
+ and higher processors.)
+ .
+ This package includes the TBB headers, libs and pkg-config
