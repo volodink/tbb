@@ -45,9 +45,3 @@ sudo chown -R root:staff libtbb-dev_2017_U7_armhf
 sudo dpkg-deb --build libtbb-dev_2017_U7_armhf
 sudo dpkg -i libtbb-dev_2017_U7_armhf.deb
 sudo ldconfig
-
-
-
-
-
-
